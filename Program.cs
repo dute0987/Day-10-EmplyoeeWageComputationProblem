@@ -16,12 +16,12 @@ namespace day_9_EmplyoeeWageProblem
             //UC2.DailWageCalculation();
 
             //UC-3-Problem
-            UC_3_PartFullTime UC3 = new UC_3_PartFullTime();
-            UC3.CalPartFullTime();
+            //UC_3_PartFullTime UC3 = new UC_3_PartFullTime();
+            //UC3.CalPartFullTime();
 
             //UC-4-Solved Using Case Statment
-            //UC_4_SwitchCaseProblem UC4 = new UC_4_SwitchCaseProblem();
-            //UC4.SwitchCase();
+            UC_4_SwitchCaseProblem UC4 = new UC_4_SwitchCaseProblem();
+            UC4.SwitchCase();
 
             //UC-5-Switch Case Solved
             //UC_5_WageForMonth UC5 = new UC_5_WageForMonth();
@@ -35,11 +35,11 @@ namespace day_9_EmplyoeeWageProblem
             //UC_8_MultipleCompanyWage DMart = new UC_8_MultipleCompanyWage("DMart", 20, 2, 10);
               UC_8_MultipleCompanyWage Reliance = new UC_8_MultipleCompanyWage("Reliance", 16, 4, 15);
 
-              DMart.ComputeEmpWage();
-              Console.WriteLine(DMart.ToString());
+              //DMart.ComputeEmpWage();
+              //Console.WriteLine(DMart.ToString());
 
-              Reliance.ComputeEmpWage();
-              Console.WriteLine(Reliance.ToString());
+              //Reliance.ComputeEmpWage();
+              //Console.WriteLine(Reliance.ToString());
 
 
 
