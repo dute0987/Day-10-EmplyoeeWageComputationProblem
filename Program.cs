@@ -32,14 +32,19 @@ namespace day_9_EmplyoeeWageProblem
             //UC6.MaxConditionSatisfied();
 
 
-              UC_8_MultipleCompanyWage DMart = new UC_8_MultipleCompanyWage("DMart", 20, 2, 10);
-              UC_8_MultipleCompanyWage Reliance = new UC_8_MultipleCompanyWage("Reliance", 16, 4, 15);
+              //UC_8_MultipleCompanyWage DMart = new UC_8_MultipleCompanyWage("DMart", 20, 2, 10);
+              //UC_8_MultipleCompanyWage Reliance = new UC_8_MultipleCompanyWage("Reliance", 16, 4, 15);
 
-              DMart.ComputeEmpWage();
-              Console.WriteLine(DMart.ToString());
+              //DMart.ComputeEmpWage();
+              //Console.WriteLine(DMart.ToString());
 
-              Reliance.ComputeEmpWage();
-              Console.WriteLine(Reliance.ToString());
+              //Reliance.ComputeEmpWage();
+              //Console.WriteLine(Reliance.ToString());
+              
+
+            UC_9_EachCompany UC9 = new UC_9_EachCompany("sunrise", 20, 6, 8);
+            UC9.ComputeEmpWage();
+            Console.WriteLine(UC9.ToString());
 
 
 
